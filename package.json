@@ -8,11 +8,10 @@
     "build:wasm": "wasm-pack build wasm --release --target web",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "prettier --write \"{hooks,pages,styles,types}/**/*.{js,ts,jsx,tsx,css}\""
+    "prettier": "prettier --write \"{hooks,pages,styles,types,components}/**/*.{js,ts,jsx,tsx,css}\""
   },
   "dependencies": {
     "@hello-pangea/color-picker": "^3.2.2",
-    "@loadable/component": "^5.15.3",
     "@next/font": "13.1.1",
     "@types/react-dom": "18.0.10",
     "get-starknet": "^2.0.0",

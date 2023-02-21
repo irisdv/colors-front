@@ -1,8 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { useState } from 'react';
-import { Provider } from 'starknet';
-import { ColorMix } from '../types/types';
 import { ColorResult, RgbColor, SketchPicker } from '@hello-pangea/color-picker';
 import { useMixingTwoColors } from '../hooks/mixing';
 import ColorBlock from '../components/ColorBlock';
